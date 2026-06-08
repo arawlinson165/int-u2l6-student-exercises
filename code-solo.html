@@ -1,32 +1,48 @@
 <!DOCTYPE html>
 <html>
-    <head>
-        <title>Code Solo</title>
-        <link rel="stylesheet" href="code-solo.css">
-    </head>
-    <body>
-        <div class="navbar">
-            <a href="index.html">Do Now</a>
-            <a href="code-along.html">Code Along</a>
-            <a href="code-solo.html">Code Solo</a>
-        </div>
 
-        <h2>Sample 1:</h2>
-        <!-- 1. Surround the p tags with an item-1 class in a div with a class of sample-1 -->
+<head>
+    <title>Code Solo</title>
+    <link rel="stylesheet" href="code-solo.css">
+</head>
+
+<body>
+    <div class="navbar">
+        <a href="index.html">Do Now</a>
+        <a href="code-along.html">Code Along</a>
+        <a href="code-solo.html">Code Solo</a>
+    </div>
+
+    <h2>Sample 1:</h2>
+    <!-- 1. Surround the p tags with an item-1 class in a div with a class of sample-1 -->
+    <div class="item-1">
+        <div class="sample-1">
             <p class="item-1">About</p>
             <p class="item-1">News</p>
             <p class="item-1">Videos</p>
             <p class="item-1">More</p>
 
-        <h2>Sample 2:</h2>
-        <!-- 2. Surround the p tags with an item-2 class in a div with a class of sample-2 -->
+        </div>
+    </div>
+
+
+    <h2>Sample 2:</h2>
+    <!-- 2. Surround the p tags with an item-2 class in a div with a class of sample-2 -->
+    <div class="item-2">
+        <div class="sample-2">
             <p class="item-2">About</p>
             <p class="item-2">News</p>
             <p class="item-2">Videos</p>
             <p class="item-2">More</p>
-        
+        </div>
+    </div>
 
-        <!-- Spicy Task: add an image tag and include whatever image you want. In the CSS, style it so that it has a position property with value of fixed, a bottom property with a value of 10px, and a right property with a value of 10px. -->
 
-    </body>
+
+
+    <!-- Spicy Task: add an image tag and include whatever image you want. In the CSS, style it so that it has a position property with value of fixed, a bottom property with a value of 10px, and a right property with a value of 10px. -->
+    <img
+        src="data:image/jpeg;base64,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">
+</body>
+
 </html>
